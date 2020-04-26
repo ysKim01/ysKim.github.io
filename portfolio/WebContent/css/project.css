@@ -1,0 +1,64 @@
+@charset "UTF-8";
+
+.project_wrap {
+	background:url('../img/main/body24.jpg') no-repeat center center;
+	background-attachment: fixed;
+	background-size:cover;
+    width:100%;
+}
+
+.project_label {
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    padding: 30px;
+    margin-bottom: 20px;
+}
+
+.project_el_wrap {
+	padding: 20px;
+}
+.project_el {
+	width: 80%;
+    height: 330px;
+    margin: 0 auto;
+    background-color: white;
+}
+.project_el *{
+	overflow: hidden;
+}
+.project_img {
+	width: 35%;
+    height: 100%;
+    float: left;
+    cursor: pointer;
+}
+.project_content_wrap {
+    box-sizing: border-box;
+    width: 65%;
+    height: 100%;
+    float: left;
+    padding: 15px;
+}
+
+.project_date {
+    font-size: 15px;
+    padding: 20px 1px;
+}
+.project_content {
+    padding: 10px 0;
+}
+.project_tag {
+    font-size: 13px;
+    padding: 15px 0;
+}
+.project_link {
+	width : 30px;
+	height : 30px;
+	cursor: pointer;
+}
+
+.project_bottom {
+	height : 50px;
+}

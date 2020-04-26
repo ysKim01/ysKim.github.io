@@ -18,6 +18,7 @@
 }
 .skill_logo_wrap {
 	display : flex;
+	flex-wrap : wrap;
 	justify-content: center;
 	position : relative;
     width:100%;
@@ -29,8 +30,15 @@
     margin: 10px;
 }
 .skill_logo {
-	height : 100px;
-	width : 100px;
-	background-size: 100% 100%;
-	margin : 0 5px;
+    margin: 5px 10px;
+    text-align: center;
+    display: inline-block;
+    width: 110px;
+    height: 110px;
+    border-radius: 30px 30px;
+    box-shadow: 0 3px 6px rgba(0,0,0,.2), 0 3px 6px rgba(0,0,0,.2);
+}
+
+.skill_bottom {
+	height : 50px;
 }

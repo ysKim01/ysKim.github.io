@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+.header_wrap {
+	position : fixed;
+	top : 0; left : 0;
+    width:100%;
+    z-index: 9999;
+    background-color: #393a3c;
+}
+.header {
+	display : flex;
+	height :50px;
+	margin : 0 10px;
+}
+.menu {
+	color: #b0b1b5;
+    padding: 15px 20px;
+    cursor: pointer;
+}
+.menu:hover {
+	color : white;
+}
+.header_bottom {
+	height: 5px;
+    background-color: #86e07c;
+}
